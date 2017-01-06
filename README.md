@@ -1,5 +1,5 @@
 # SHU-CAPTCHA-solver-based-on-CNN
-SHU CAPTCHA solver based on CNN, need python, [kears](https://keras.io/) ,numpy and PIL as dependencies.
+SHU CAPTCHA solver based on CNN, need python, [keras](https://keras.io/) ,numpy and PIL as dependencies.
 <br>
 
 ### structure
@@ -17,7 +17,7 @@ If you intend to append any data to the dataset, check these files.
 
 ### usage
 Run train.py and it will load the training set and train the network. 
-Afterwords it will stored the network using keras's model.save_weights and model.to_json function to save the data.<br>
+Afterwords it will stored the network using keras's model.save_weights and model.to_json functions to save the data.<br>
 Also, you can simplely import CaptchaSolver into your script and use the solve method by passing it a loaded Image object(from PIL). See test.py.<br>
 Be aware each time that CaptchaSolver.py starts, it loads the network from the json and h5 files above,
  so if you want to make it a service of some type(eg web api), it's better to keep the proccess as a resident one.
