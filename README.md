@@ -1,5 +1,7 @@
 # SHU-CAPTCHA-solver-based-on-CNN
-SHU CAPTCHA solver based on CNN, need python, [keras](https://keras.io/) ,numpy and PIL as dependencies.
+SHU CAPTCHA solver based on CNN, need python3.5, [keras](https://keras.io/) ,numpy and PIL as dependencies.<br>
+You can simplely use command "pip3 -r requirements.txt" to install them.<br>
+A pretty old version of tensorflow is used and is not included in requirements.txt, please install it with "pip install http://mirrors.shuosc.org/tensorflow/linux/cpu/tensorflow-0.10.0-cp27-none-linux_x86_64.whl".
 <br>
 
 ### structure
